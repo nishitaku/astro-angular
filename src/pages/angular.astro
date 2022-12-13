@@ -1,0 +1,9 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { CounterComponent } from "../components/counter.component";
+---
+
+<Layout title="Angular">
+  <h1>Angular Sample</h1>
+  <CounterComponent title="Counter component" client:load />
+</Layout>
